@@ -11,8 +11,14 @@
 	<name>bookshelf</name>
 	<description>Bookshelf application</description>
 
+	<properties>
+		<docker.image.prefix>me.balukiewicz</docker.image.prefix>
+		<docker.plugin.version>0.4.11</docker.plugin.version>
+	</properties>
+
+
 	<modules>
-		<module>config-service</module>
+		<module>infrastructure</module>
 	</modules>
 
 
